@@ -1,0 +1,7 @@
+var i = 0//document.getElementById('numInicio')
+var f = 10//document.getElementById('numFim')
+var p = 2//document.getElementById('numPasso')
+
+for (var x = 0; x <= 10; p++) {
+    console.log(x)
+}

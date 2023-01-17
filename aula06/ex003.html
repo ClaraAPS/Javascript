@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {background-color: brown; /* comentario em CSS*/
+        color: white;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+        
+        
+    </style>
+</head>
+<body>
+    <h1> olá mundo </h1> <!-- Comentário em html-->
+    <p> como vai voce </p>
+    <script> 
+    var n1 = Number(window.prompt('Digite um número')) // pode usar só o number no ecma
+    var n2 = Number.parseInt(window.prompt('Digite outro numero')) // outra maneira de passar string para numero inteiro
+    // passar string para numero inteiro -- .parseFloat para numeros não inteiros ex.: 5.5
+    // para passar numero para string é String(n) ou n.toString()
+    // ${} place holder s = 'JavaSript'   `estou aprendendo ${s}`
+    var soma = n1 + n2
+    window.alert(`A soma de ${n1} e ${n2} é ${soma}`)
+    </script>
+</body>
+</html>
